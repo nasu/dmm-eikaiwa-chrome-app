@@ -3,7 +3,7 @@
   "name": "DMM Eikaiwa Chrome APP",
   "version": "0.1.0",
   "default_locale": "ja",
-  "description": "",
+  "description": "DMM英会話の講師検索を自分用にカスタマイズする",
   "author": "NASU, Tatsuya",
   "content_scripts": [
     {

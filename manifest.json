@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "DMM Eikaiwa Chrome APP",
+  "version": "0.1.0",
+  "default_locale": "ja",
+  "description": "",
+  "author": "NASU, Tatsuya",
+  "content_scripts": [
+    {
+      "matches": ["https://eikaiwa.dmm.com/list/*"],
+      "js": ["list-filter.js"]
+    }
+  ]
+}
